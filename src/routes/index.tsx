@@ -435,7 +435,7 @@ function Index() {
           <div className="flex items-center gap-2">
             <Wind className="h-5 w-5 text-cyan-400" />
             <span className="font-bold text-white">Friotuytec</span>
-            <span>· Frío Garantizado</span>
+            <span>· Frío Garantizado con los mejores Profesionales</span>
           </div>
           <div>© {new Date().getFullYear()} Todos los derechos reservados.</div>
         </div>

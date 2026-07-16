@@ -90,6 +90,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a82e6a62-6a57-40cf-8094-f020c35526c1/id-preview-660ef8f7--55b25529-f600-44e2-a772-f3cbca0563fc.lovable.app-1782440819828.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a82e6a62-6a57-40cf-8094-f020c35526c1/id-preview-660ef8f7--55b25529-f600-44e2-a772-f3cbca0563fc.lovable.app-1782440819828.png" },
     ],
+    scripts: [
+      {
+        src: "https://www.googletagmanager.com/gtag/js?id=G-1V7PHGMMEP",
+      },
+      {
+        children: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1V7PHGMMEP');`,
+      },
+    ],
     links: [
       {
         rel: "stylesheet",
