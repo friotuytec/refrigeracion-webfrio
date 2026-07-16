@@ -11,10 +11,24 @@ node_modules
 dist
 dist-ssr
 .output
+.next
+out
 .vinxi
 .tanstack/**
 .nitro
+
+# Env files
+.env
+.env*.local
 *.local
+
+# Ignored dirs
+.workspace/
+wp_data/
+friotuytec-project.zip
+wordpress_backup.sql
+wordpress_production.sql
+wordpress_production.zip
 
 # Wrangler / Cloudflare
 .wrangler/

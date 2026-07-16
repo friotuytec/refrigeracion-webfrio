@@ -1,4 +1,5 @@
-import { createFileRoute } from "@tanstack/react-router";
+"use client";
+
 import { motion } from "framer-motion";
 import {
   Snowflake,
@@ -14,26 +15,6 @@ import {
   MapPin,
   Sparkles,
 } from "lucide-react";
-
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Friotuytec — Aires Acondicionados y Refrigeración | Frío Garantizado" },
-      {
-        name: "description",
-        content:
-          "Instalación, reparación y mantenimiento de aires acondicionados y cavas cuartos. Atención de urgencias 24/7. Cotiza por WhatsApp.",
-      },
-      { property: "og:title", content: "Friotuytec — Frío Garantizado" },
-      {
-        property: "og:description",
-        content:
-          "Expertos en refrigeración y climatización. Técnicos certificados, garantía y atención rápida en tu zona.",
-      },
-    ],
-  }),
-  component: Index,
-});
 
 const WA_URGENCIA =
   "https://wa.me/584242580386?text=Hola%20Friotuytec,%20tengo%20una%20urgencia%20con%20mi%20equipo.";
@@ -63,7 +44,7 @@ function Glass({
   );
 }
 
-function Index() {
+export default function Index() {
   return (
     <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-slate-950 via-blue-950 to-cyan-950 text-white">
       {/* Ambient glow blobs */}
