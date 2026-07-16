@@ -146,7 +146,7 @@ function Index() {
             En Tus Manos.
             <br />
             <span className="bg-gradient-to-r from-cyan-300 to-sky-500 bg-clip-text text-transparent">
-              Frío Garantizado.
+              Frío Garantizado en los valles del tuy
             </span>
           </motion.h1>
 
