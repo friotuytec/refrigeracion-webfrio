@@ -15,6 +15,7 @@ import {
   MapPin,
   Sparkles,
 } from "lucide-react";
+import ReviewsSection from "../components/ReviewsSection";
 
 const WA_URGENCIA =
   "https://wa.me/584242580386?text=Hola%20Friotuytec,%20tengo%20una%20urgencia%20con%20mi%20equipo.";
@@ -409,6 +410,9 @@ export default function Index() {
           </motion.div>
         </div>
       </section>
+
+      {/* RESEÑAS */}
+      <ReviewsSection />
 
       {/* FOOTER */}
       <footer className="relative border-t border-white/10 px-4 py-10">
